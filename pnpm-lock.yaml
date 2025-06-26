@@ -66,9 +66,6 @@ importers:
         specifier: ^5
         version: 5.8.3
     devDependencies:
-      '@types/jspdf':
-        specifier: ^2.0.0
-        version: 2.0.0
       eslint:
         specifier: ^8
         version: 8.57.1
@@ -276,10 +273,6 @@ packages:
 
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
-
-  '@types/jspdf@2.0.0':
-    resolution: {integrity: sha512-oonYDXI4GegGaG7FFVtriJ+Yqlh4YR3L3NVDiwCEBVG7sbya19SoGx4MW4kg1MCMRPgkbbFTck8YKJL8PrkDfA==}
-    deprecated: This is a stub types definition. jspdf provides its own type definitions, so you do not need this installed.
 
   '@types/node@20.19.1':
     resolution: {integrity: sha512-jJD50LtlD2dodAEO653i3YF04NWak6jN3ky+Ri3Em3mGR39/glWiboM/IePaRbgwSfqM1TpGXfAg8ohn/4dTgA==}
@@ -2169,10 +2162,6 @@ snapshots:
   '@types/d3-timer@3.0.2': {}
 
   '@types/json5@0.0.29': {}
-
-  '@types/jspdf@2.0.0':
-    dependencies:
-      jspdf: 2.5.2
 
   '@types/node@20.19.1':
     dependencies:
