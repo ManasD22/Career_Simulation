@@ -30,7 +30,7 @@
     "tailwind-merge": "^1.14.0"
   },
   "devDependencies": {
-    "@types/jspdf": "^2.3.0",
+    "@types/jspdf": "^2.0.0",
     "eslint": "^8",
     "eslint-config-next": "14.0.0"
   }
